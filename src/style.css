@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+  background-color: #5995DA;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+    background-color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.world-container {
+    padding: 20px 20px;
+    width: 100%;
+    height: 90%;
+}
+
+.bottom-grid-container {
+  height: 10%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  padding: 10px;
+}
+
+.slider-container {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  align-items: center;
+  padding: 10px;
+}
+
+.button-container {
+  height: 100%;
+  width: 25%;
+  display: grid;
+  grid-gap: 10px
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  padding: 10px;
+}
+
+.simulation-speed-label {
+    font-size: 20px;
+
+    align-self: center;
+    justify-self: center;
+}
+
